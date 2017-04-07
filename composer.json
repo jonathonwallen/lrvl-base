@@ -1,0 +1,14 @@
+{
+  "name": "lrvl-base",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "5.4.*",
+    "laravel/homestead": "dev-master"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php vendor/bin/homestead make"
+    ]
+  }
+}
